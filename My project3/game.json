@@ -1,0 +1,3183 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\panda-holmes\\My project3\\game.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Panda Holmes",
+    "author": "",
+    "windowWidth": 960,
+    "windowHeight": 540,
+    "latestCompilationDirectory": "C:\\Users\\muril\\OneDrive\\Área de Trabalho\\Panda_v0.1",
+    "maxFPS": 60,
+    "minFPS": 10,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/kenneyrpg/PNG/rpgTile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\kenneyrpg\\PNG\\rpgTile019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/plataformer/PNG Grass/slice16_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\plataformer\\PNG Grass\\slice16_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Desktop/pandaHolmes/sprites-garota/sprite04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Desktop\\pandaHolmes\\sprites-garota\\sprite04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Sprites/Sprites/plataformer/PNG Grass/grassHalf.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Sprites\\Sprites\\plataformer\\PNG Grass\\grassHalf.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/GUI/PNG/blue_panel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\GUI\\PNG\\blue_panel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fundo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fundo-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fundo-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fundo-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fundo-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fundo-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/GUI/PNG/grey_button00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\GUI\\PNG\\grey_button00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/GUI/PNG/red_button02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\GUI\\PNG\\red_button02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/GUI/PNG/green_button02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\GUI\\PNG\\green_button02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/GUI/PNG/green_button01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\GUI\\PNG\\green_button01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/GUI/PNG/yellow_button01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\GUI\\PNG\\yellow_button01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/SpriteSheet-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\SpriteSheet-16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Sprites/Sprites/plataformer/PNG Grass/slice16_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Sprites\\Sprites\\plataformer\\PNG Grass\\slice16_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Sprites/Sprites/kenneyrpg/PNG/rpgTile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Sprites\\Sprites\\kenneyrpg\\PNG\\rpgTile019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_baixo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_baixo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_baixo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_baixo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_baixo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_baixo-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_baixo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_baixo-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_direita-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_direita-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_direita-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_direita-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_direita-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_direita-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_direita-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_direita-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_esquerda-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_esquerda-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_esquerda-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_esquerda-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_esquerda-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_esquerda-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_esquerda-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_esquerda-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_cima-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_cima-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_cima-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_cima-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_cima-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_cima-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Correr_cima-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Correr_cima-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Parado_cima-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Parado_cima-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Parado_baixo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Parado_baixo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Parado_direita-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Parado_direita-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Menina/Parado_esquerda-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Menina\\Parado_esquerda-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../SPRITE/Panda/Panda_frente-1-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\SPRITE\\Panda\\Panda_frente-1-2-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/ClassicRPGTileset/rpgTile019-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\ClassicRPGTileset\\rpgTile019-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/kenneyrpg/PNG/rpgTile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\kenneyrpg\\PNG\\rpgTile019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/kenneyrpg/PNG/slice16_16-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\kenneyrpg\\PNG\\slice16_16-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/plataformer/PNG Grass/slice16_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\plataformer\\PNG Grass\\slice16_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/Correr_baixo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\Correr_baixo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite01-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite01-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite08.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/sprite16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\sprite16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/Correr_baixo-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\Correr_baixo-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/Correr_baixo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\Correr_baixo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/Correr_baixo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\Correr_baixo-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/sprites-garota/Correr_baixo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\sprites-garota\\Correr_baixo-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_baixo-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_baixo-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_baixo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_baixo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_baixo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_baixo-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_baixo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_baixo-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_baixo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_baixo-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_direita-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_direita-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_direita-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_direita-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_direita-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_direita-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_direita-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_direita-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_esquerda-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_esquerda-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_esquerda-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_esquerda-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_esquerda-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_esquerda-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_esquerda-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_esquerda-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_cima-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_cima-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_cima-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_cima-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_cima-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_cima-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/menina/Correr_cima-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\menina\\Correr_cima-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/panda/Panda_andar_frente-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\panda\\Panda_andar_frente-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/blue_panel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\blue_panel.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/grey_panel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\grey_panel.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/blue_button00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\blue_button00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/yellow_button00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\yellow_button00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/yellow_button01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\yellow_button01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/kenneyrpg/PNG/rpgTile013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\kenneyrpg\\PNG\\rpgTile013.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Menu",
+      "name": "Menu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.568
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 541,
+          "layer": "",
+          "locked": false,
+          "name": "Fundo",
+          "width": 963,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 320,
+          "layer": "",
+          "locked": false,
+          "name": "Menu",
+          "width": 352,
+          "x": 315,
+          "y": 174,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "Nome",
+          "width": 512,
+          "x": 214,
+          "y": 42,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 56,
+          "layer": "",
+          "locked": false,
+          "name": "PandaHolmes",
+          "width": 448,
+          "x": 252,
+          "y": 56,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "",
+          "locked": false,
+          "name": "CarregarJogo",
+          "width": 295,
+          "x": 345,
+          "y": 302,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "",
+          "locked": false,
+          "name": "NovoJogo",
+          "width": 295,
+          "x": 345,
+          "y": 212,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "",
+          "locked": false,
+          "name": "Colaborador",
+          "width": 295,
+          "x": 345,
+          "y": 396,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NovoJogoTxt",
+          "width": 0,
+          "x": 399,
+          "y": 224,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "CarregarJogoTxt",
+          "width": 0,
+          "x": 365,
+          "y": 310,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ColaboradorTxt",
+          "width": 0,
+          "x": 384,
+          "y": 407,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Fundo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Fundo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\grey_panel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Menu",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\blue_panel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nome",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\blue_button00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NovoJogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Botao",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\yellow_button00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CarregarJogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\yellow_button01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Som",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "name": "Colaborador",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\yellow_button01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "PandaHolmes",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Panda Holmes",
+          "font": "",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "NovoJogoTxt",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Novo Jogo",
+          "font": "",
+          "characterSize": 42,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "CarregarJogoTxt",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Carregar Jogo",
+          "font": "",
+          "characterSize": 42,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "ColaboradorTxt",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Colaborador",
+          "font": "",
+          "characterSize": 42,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Fase01\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "NovoJogo",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "CarregarJogo",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Fase01",
+      "name": "Fase01",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.616
+      },
+      "objectsGroups": [
+        {
+          "name": "Cenario",
+          "objects": [
+            {
+              "name": "Chao"
+            },
+            {
+              "name": "Lanes"
+            }
+          ]
+        },
+        {
+          "name": "Personagens",
+          "objects": []
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 605,
+          "layer": "",
+          "locked": false,
+          "name": "Chao",
+          "width": 424,
+          "x": -13,
+          "y": -14,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 585,
+          "layer": "",
+          "locked": false,
+          "name": "Chao",
+          "width": 568,
+          "x": 400,
+          "y": -9,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 565,
+          "x": 2,
+          "y": 27,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 334,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 32,
+          "x": 567,
+          "y": 27,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 199,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 32,
+          "x": 567,
+          "y": 356,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 512,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 32,
+          "x": 67,
+          "y": 56,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 468,
+          "x": 100,
+          "y": 307,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 475,
+          "x": 97,
+          "y": 153,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 476,
+          "x": 94,
+          "y": 477,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 519,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 32,
+          "x": 728,
+          "y": 30,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 157,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 188,
+          "x": 569,
+          "y": 29,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 189,
+          "x": 754,
+          "y": 30,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 510,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 32,
+          "x": 910,
+          "y": 48,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "Lanes",
+          "width": 368,
+          "x": 571,
+          "y": 395,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Panda",
+          "width": 0,
+          "x": 8,
+          "y": -29,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 607,
+          "layer": "",
+          "locked": false,
+          "name": "Parede_fora_mapa",
+          "width": 46,
+          "x": 963,
+          "y": -14,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "Parede_fora_mapa",
+          "width": 1029,
+          "x": -53,
+          "y": -31,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Parede_fora_mapa",
+          "width": 1023,
+          "x": -38,
+          "y": 541,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 580,
+          "layer": "",
+          "locked": false,
+          "name": "Parede_fora_mapa",
+          "width": 46,
+          "x": -46,
+          "y": -19,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 79,
+          "layer": "",
+          "locked": false,
+          "name": "Garota",
+          "width": 57,
+          "x": 59,
+          "y": 247,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 61,
+          "layer": "",
+          "locked": false,
+          "name": "Panda",
+          "width": 63,
+          "x": 55,
+          "y": 43,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 600,
+          "name": "Chao",
+          "texture": "Sprites\\kenneyrpg\\PNG\\rpgTile019.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 400,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Lanes",
+          "texture": "Sprites\\plataformer\\PNG Grass\\slice16_16.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "Garota",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "acceleration": 9999,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "deceleration": 9999,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "name": "TopDownMovement",
+              "rotateObject": false,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Correr_baixo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_baixo-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_baixo-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_baixo-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_baixo-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Correr_direita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_direita-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_direita-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_direita-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_direita-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Correr_esquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_esquerda-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_esquerda-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_esquerda-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_esquerda-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Correr_cima",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_cima-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_cima-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_cima-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_cima-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Parado_cima",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_cima-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Parado_baixo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_baixo-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Parado_direita",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_direita-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Parado_esquerda",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\menina\\Correr_esquerda-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Panda",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Panda_frente-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\panda\\Panda_andar_frente-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "Parede_fora_mapa",
+          "texture": "Sprites\\kenneyrpg\\PNG\\rpgTile013.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": [
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Movimento da garota",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Parado_baixo\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Correr_baixo\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Correr_direita\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Correr_esquerda\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Correr_cima\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Parado_cima\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Parado_direita\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Parado_esquerda\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Garota",
+                "\"Parado_baixo\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Garota"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
