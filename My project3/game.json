@@ -1521,6 +1521,40 @@
         "name": "Sprites\\sprites-detetive\\correndo_esquerda-3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/713208.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\713208.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Lobster/Lobster-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Lobster\\Lobster-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/blue_button05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\blue_button05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/GUI/PNG/blue_button05-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\GUI\\PNG\\blue_button05-1-2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1553,7 +1587,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.568
+        "zoomFactor": 0.664
       },
       "objectsGroups": [],
       "variables": [],
@@ -1611,8 +1645,8 @@
           "locked": false,
           "name": "PandaHolmes",
           "width": 448,
-          "x": 252,
-          "y": 56,
+          "x": 306,
+          "y": 54,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1620,45 +1654,45 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 70,
-          "layer": "",
-          "locked": false,
-          "name": "CarregarJogo",
-          "width": 295,
-          "x": 345,
-          "y": 302,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 70,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
           "name": "NovoJogo",
-          "width": 295,
-          "x": 345,
-          "y": 212,
-          "zOrder": 6,
+          "width": 0,
+          "x": 364,
+          "y": 211,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 70,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Colaborador",
-          "width": 295,
-          "x": 345,
-          "y": 396,
-          "zOrder": 7,
+          "name": "CarregarJogo",
+          "width": 0,
+          "x": 364,
+          "y": 299,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Quit",
+          "width": 0,
+          "x": 364,
+          "y": 392,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1671,9 +1705,9 @@
           "locked": false,
           "name": "NovoJogoTxt",
           "width": 0,
-          "x": 399,
-          "y": 224,
-          "zOrder": 8,
+          "x": 402,
+          "y": 213,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1686,9 +1720,9 @@
           "locked": false,
           "name": "CarregarJogoTxt",
           "width": 0,
-          "x": 365,
-          "y": 310,
-          "zOrder": 9,
+          "x": 369,
+          "y": 297,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1699,11 +1733,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "ColaboradorTxt",
+          "name": "QuitTxt",
           "width": 0,
-          "x": 384,
-          "y": 407,
-          "zOrder": 10,
+          "x": 390,
+          "y": 392,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1727,7 +1761,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Sprites\\GUI\\PNG\\grey_panel.png",
+                      "image": "Sprites\\713208.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1825,128 +1859,6 @@
           ]
         },
         {
-          "name": "NovoJogo",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Botao",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sprites\\GUI\\PNG\\yellow_button00.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "CarregarJogo",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sprites\\GUI\\PNG\\yellow_button01.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Som",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "name": "Colaborador",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sprites\\GUI\\PNG\\yellow_button01.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "PandaHolmes",
@@ -1956,7 +1868,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Panda Holmes",
-          "font": "",
+          "font": "Lobster\\Lobster-Regular.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -1974,7 +1886,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Novo Jogo",
-          "font": "",
+          "font": "Lobster\\Lobster-Regular.ttf",
           "characterSize": 42,
           "color": {
             "b": 0,
@@ -1992,7 +1904,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Carregar Jogo",
-          "font": "",
+          "font": "Lobster\\Lobster-Regular.ttf",
           "characterSize": 42,
           "color": {
             "b": 0,
@@ -2003,20 +1915,134 @@
         {
           "bold": false,
           "italic": false,
-          "name": "ColaboradorTxt",
+          "name": "QuitTxt",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Colaborador",
-          "font": "",
+          "string": "Sair",
+          "font": "Lobster\\Lobster-Regular.ttf",
           "characterSize": 42,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "CarregarJogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "blue_button05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\blue_button05-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NovoJogo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "blue_button05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\blue_button05-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quit",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "blue_button05",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\GUI\\PNG\\blue_button05-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2028,11 +2054,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonReleased"
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "NovoJogo",
                 "",
-                "Left"
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -2041,16 +2069,211 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ChangeScale"
               },
               "parameters": [
+                "NovoJogo",
+                "=",
+                "0.98\n\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NovoJogo",
                 "",
-                "\"Fase01\"",
+                "",
                 ""
               ],
               "subInstructions": []
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "NovoJogo",
+                "=",
+                "1\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CarregarJogo",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "CarregarJogo",
+                "=",
+                "0.98\n\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CarregarJogo",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "CarregarJogo",
+                "=",
+                "1\n\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Quit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Quit",
+                "=",
+                "0.98\n\n\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Quit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Quit",
+                "=",
+                "1\n\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -2069,31 +2292,55 @@
                     ""
                   ],
                   "subInstructions": []
-                },
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "Scene"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "CarregarJogo",
-                        "",
-                        "",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
+                  "parameters": [
+                    "",
+                    "\"Fase01\"",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
-              "actions": [],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Quit",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ]
@@ -2144,7 +2391,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.976
+        "zoomFactor": 0.784
       },
       "objectsGroups": [
         {
